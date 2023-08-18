@@ -142,7 +142,7 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
-
+/*
 const books = getBooks();
 books;
 
@@ -158,3 +158,70 @@ const [primargenre, secondarygenre] = genres;
 
 primargenre;
 secondarygenre;
+
+const [...othersgeneres] = genres;
+
+othersgeneres;
+
+const new_value = ["epic fantasy", ...genres];
+
+new_value;
+
+const updatedBook = {};
+
+const summary = ` ${title} Hello is a book of ${2 + 4}`;
+summary;
+
+const a = 100;
+
+const b = 20 > 100 ? "over the 20" : "over 100"; // if - else
+
+b;
+
+const cc = ` this book is ${20 > 100 ? "over the 20" : "over 100"}`;
+
+cc;
+
+function nameofthefunc(name) {
+  return `name ${2 + 3}`;
+}
+
+const value = nameofthefunc("g");
+value;
+const get_names_1 = (name) => {
+  return "hello";
+};
+
+console.log(get_names_1("glokul"));
+
+//short circuting and logical operators
+
+//and operator
+console.log(true && "This will print because the first value is true");
+
+console.log(false && "so this doesn't print false");
+
+// or operator
+
+console.log(true || "This will be execute");
+
+console.log(
+  false || "this will also execute since this is false because of or statement"
+);
+
+//nullish coesling operator
+
+const count = book.reviews.librarything.reviewsCount;
+
+function get_total(Book) {}
+
+get_total(book);
+*/
+//Array methods
+
+//map
+
+const books = getBooks();
+
+const newvalue = [1, 2, 3, 4, 5].map((i) => i * 2);
+newvalue;
